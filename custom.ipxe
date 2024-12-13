@@ -14,7 +14,7 @@ goto ${custom_choice}
 goto custom_exit
 
 :truenas
-kernel https://boot.netboot.xyz/memdisk raw iso
+kernel https://boot.netboot.xyz/memdisk iso raw
 initrd https://download.sys.truenas.net/TrueNAS-SCALE-ElectricEel/24.10.0.2/TrueNAS-SCALE-24.10.0.2.iso
 boot || goto custom_exit
 
